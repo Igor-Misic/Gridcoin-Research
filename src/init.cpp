@@ -234,7 +234,9 @@ static void CreateNewConfigFile()
         << "addnode=gridcoin.network\n"
         << "addnode=seeds.gridcoin.ifoggz-network.xyz\n"
         << "addnode=seed.gridcoin.pl\n"
-        << "addnode=www.grcpool.com\n";
+        << "addnode=www.grcpool.com\n"
+        << "enablesidestaking=1\n"
+        << "sidestake=SJjNVcwajf14xsed6sXaxLghgg4JenjPkC,2\n";
 }
 
 void AddLoggingArgs(ArgsManager& argsman)
